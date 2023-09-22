@@ -1,0 +1,47 @@
+body{
+    background-image: url(./banner.jpg);
+}
+h1{
+    font-size: 1.2cm;
+    color: aliceblue;
+    text-align: center;
+}
+.titulo{
+    background-color: #ff7987;
+    border-radius: 60%;
+    margin-left: 4cm;
+    margin-right: 4cm;
+}
+.cuadrado{
+   
+    height: 19cm;
+    width: 15cm;
+    background: #ECE9E9;
+    background: -webkit-linear-gradient(to left,#ffffff, #ece9e6);
+    background: linear-gradient(to left, #ffffff, #ece9e6);
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    border-radius: 17px;
+    display: flex;
+    padding: 1cm;
+    margin-left: 29%;
+
+}
+.enviar{
+    margin-left: 2cm;
+    background-color:#fcafb7;;
+    font-size: 0.4cm;
+    border-radius: 10px;
+}
+.borrar{
+    background-color: #fcafb7;;
+    font-size: 0.4cm;
+    border-radius: 10px;
+}
+.titulos2{
+    font-size: 0.8cm;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+.titulo3{
+    font-size: 0.5cm;
+}

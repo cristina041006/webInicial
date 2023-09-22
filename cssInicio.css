@@ -1,0 +1,57 @@
+h1{
+    padding-left: 37%;
+    
+}
+.introduccion {
+    border: 0.2cm double #ff7987;
+    float:left;
+    height:100%;
+    padding:15px;
+    width: 37%;
+    margin-left: 30%;
+    margin-top: 1cm;
+    
+}
+p{
+    font-size: 0.6cm;
+    font-style: italic;
+    font-family: serif;
+}
+img{
+    width: 3cm;
+
+}
+.tabla{
+    float:left;
+    height:100%;
+    padding:40px;
+    width: 37%;
+    margin-left: 30%;
+}
+body{
+    background-color:#fffed1;
+}
+.pie{
+    font-size: 0.9; 
+    font-style: normal;
+ 
+   
+
+}
+.final{
+    float:left;
+    border: 0.2cm inset  #d69fa4;
+    margin-left: 20%;
+    height: 3cm;
+    background-color:  #fcafb7;
+    text-align: center;
+    padding: 0.3cm;
+    width: 22cm;
+    margin-bottom: 2cm;
+    
+}
+span{
+    text-decoration-line: underline;
+    
+}
+

@@ -1,0 +1,47 @@
+.titulo{
+    background-color: #ff7987;
+    border-radius: 70%;
+    margin-left: 4cm;
+    margin-right: 4cm;
+}
+body{
+    background-color: #fffed1;
+}
+h2{
+    text-align: center; 
+    color: aliceblue; 
+    font-size: 1.5cm;
+}
+.buscar{
+    width: 10cm;
+    border: 0.2cm double #ff7987;
+    margin-left: 35%;
+}
+.intro{
+    font-size: 0.55cm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+}
+.texto{
+    width: 10cm;
+    margin-left: 35%;
+    margin-top: 1cm;
+}
+input{
+    text-align: center;
+    margin-left: 30%;
+}
+.respuesta{
+    width: 10cm;
+    margin-left: 35%;
+}
+p{
+    font-size: 0.7cm;
+}
+.boton{
+    margin-left: 45%;
+    background-color: #fcafb7;
+    border-color: aliceblue;
+    font-size: 0.4cm;
+}

@@ -1,0 +1,18 @@
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+body{
+    background-color:  #fcafb7;
+}
+button{
+    width: 5cm;
+    height: 0.8cm;
+    font-weight: bold;
+    background-color: #ff7987;
+    border-color: aliceblue;
+}
+a{
+    color: aliceblue;
+}

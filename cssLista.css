@@ -1,0 +1,96 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5cm;
+}
+.titulo{
+    background-color: #ff7987;
+    border-radius: 80%;
+    margin-left: 4cm;
+    margin-right: 4cm;
+}
+.intro{
+    border:#ffffa7 6px inset;
+    margin-left: 38%;
+    height: auto;
+    width: 10cm;
+    background-color:#ffffb9;
+    padding: 0.2cm;
+}
+p{
+    font-size: 0.5cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #fffed1;
+}
+.form{
+    width: 35cm;
+    border: 0.1cm dotted black;
+
+}
+.preguntas{
+    border: 0.2cm double #ff7987;
+    float:left;
+    height:100%;
+    padding:15px;
+    width: 37%;
+    margin-left: 31%;
+    margin-top: 1cm;
+}
+.tabla{
+    width: 40%;
+
+}
+table td {
+    border: 0.08cm dashed #ff8d99;
+
+}
+.tablero{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    bottom: 0;
+    right: 80;
+    margin-top: 40%;
+    padding-bottom: 10%;
+    margin-left: 1%;
+    
+}
+td{
+    font-size: 0.6cm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 0.7cm;
+    padding-right: 0.7cm;
+  
+}
+.mod{
+    text-align: center;
+}
+input{
+    text-align: center;
+    margin-left: 35%;
+}
+.boton{
+    margin-left: 45%;
+    background-color: #fcafb7;;
+    border-color:  aliceblue;;
+}
+select{
+    text-align: center;
+    margin-left: 40%;
+}
+.aniadir{
+    border: 0.1cm solid #ff8d99;
+    padding-bottom: 0.5cm;
+}
+.borrar{
+    border: 0.1cm solid #ff8d99;
+    padding-bottom: 0.5cm;
+    margin-top: 0.5cm;
+}
+th{
+    border: 0.08cm dashed #ff8d99; 
+}

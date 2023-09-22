@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="cssLista.css">
+    </head>
+    <body>
+        <div>
+            <div class="titulo"><h1>Lista de deseos</h1></div>
+            
+            <div class="intro"><p >Añade los libros que te interesen a la lista, la categoria que pertenecen y su precio</p></div>
+
+            <div class="preguntas">
+                <div class="aniadir">
+                    <p class="mod">Nombre</p>
+
+                    <input type="text" id="nombre" placeholder="Nombre del libro">
+
+                    <p class="mod">Categoria</p>
+
+                    <select id="categoria">
+                        <option value="Seleccione" selected>Seleccione</option>
+                        <option value="Romance" >Romance</option>
+                        <option value="Ciencia Ficcion">Ciencia ficcion</option>
+                        <option value="Drama">Drama</option>
+                    </select>
+
+                    <p class="mod">Precio</p>
+
+                    <input type="number" id="precio" placeholder="Escriba el precio">
+                    <br><br>
+                    <input id= add type="button" value="Añadir" class="boton"> 
+                </div>
+                <div class="borrar">
+                    <p class="mod">Borrar</p>
+                    <input type="text" id="borrar" placeholder="Nombre del libro">
+                    <br><br>
+                    <input type="button" value="Borrar" class="boton" id="delete">
+                </div>
+                
+                
+            </div>
+            <div class="tablero">
+                <table id="tabla">
+                    <tr>
+                        <th style="font-size: 0.7cm;">Libro</th>
+                        <th style="font-size: 0.7cm;">Categoria</th>
+                        <th style="font-size: 0.7cm;">Precio</th>
+                    </tr>
+                </table> 
+            </div>
+                
+        </div>
+        <script type="text/javascript" src="./lista.js"></script>
+    </body>
+</html>
